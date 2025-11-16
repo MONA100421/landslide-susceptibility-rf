@@ -1,0 +1,59 @@
+# -----------------------------
+# Python virtual environment
+# -----------------------------
+.venv/
+venv/
+ENV/
+env/
+
+# -----------------------------
+# Python cache
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# -----------------------------
+# Project3 Data (large raster files)
+# -----------------------------
+Project3Data/*.img
+Project3Data/*.aux.xml
+Project3Data/*.xml
+Project3Data/*.rrd
+Project3Data/*.tif
+Project3Data/*.tiff
+
+# -----------------------------
+# Operating system files
+# -----------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# -----------------------------
+# Editors
+# -----------------------------
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Optional: Ignore output plots/maps
+# -----------------------------
+# Uncomment if needed:
+# outputs/
+# figures/
+# maps/
